@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.server.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "rootDir": ".",
+    "outDir": "dist/vercel",
+    "noEmit": true
+  },
+  "include": ["api/**/*.ts", "server/**/*.ts"]
+}
